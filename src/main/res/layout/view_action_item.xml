@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back"
+    android:layout_width="@dimen/action_bar_height"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_selector"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/action_bar_item_imageView"
+        android:layout_width="@dimen/action_bar_height"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_centerInParent="true"
+        android:padding="5dp"/>
+
+</RelativeLayout>
